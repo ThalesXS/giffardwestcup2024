@@ -75,7 +75,7 @@ body{
 	margin:auto;
 	margin-top: 100px;
 	width: min(550px, 75%);
-	border-radius: 1%;
+	border-radius: 5%;
 }
 
 #compass
@@ -294,26 +294,26 @@ h4
 
 .nButton
 {
-	top: 22%;
-	left: 60.5%;
+	top: 10%;
+	left: 50%;
 	transform: translate(-50%, 0);
 }
 .sButton
 {
-	top: 73%;
+	top: 79%;
 	left: 50%;
 	transform: translate(-50%, 25%);
 }
 .eButton
 {
-	top: 57%;
-	left: 77%;
+	top: 47%;
+	left: 85%;
 	transform: translate(-50%, -10%);
 }
 .wButton
 {
-	top: 56.5%;
-	left: 26%;
+	top: 47%;
+	left: 15%;
 	transform: translate(-50%, -10%);
 }
 
@@ -323,8 +323,8 @@ h4
 	height: 45px;
 	position: absolute;
 	border-radius: 50%;
-	top: 53.2%;
-	left: 52%;
+	top: 51%;
+	left: 49%;
 	transform: translate(-52%,-50%);
 }
 
