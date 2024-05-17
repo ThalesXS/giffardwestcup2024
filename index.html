@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>
+		Bússola Quebrada
+	</title>
+	<script src="script.js"></script>
+	<link rel="icon" href="./srcs/west-cup-icon.png" type="image/icon type">
+	<link rel="styleSheet" href="styles.css">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,700&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+	</style>
+
+</head>
+<body>
+	<header id="header">
+			<img id="cupLogo" src="./srcs/west-cup-icon.png" alt="Gilfard West Cup Logo">
+	</header>
+
+	<main id="main">
+		<section class="drinkSpace">
+			<h1 id="title" class="cormorant-title">Bússola Quebrada</h1>
+			<div id="compass">
+				<img id="drinkImage" src="./srcs/drink.jpg" alt="Bússola Quebrada">
+				<div class="container">
+					<label>
+						<input id="player" class="play-btn" type="checkbox" onchange="myFunction(this)">
+						<div class="play-icon"></div>
+						<div class="pause-icon"></div>
+					</label>
+				</div>
+				<div class="nButton floating-button">
+					N
+				</div>
+				<div class="sButton floating-button">
+					S
+				</div>
+				<div class="eButton floating-button">
+					E
+				</div>
+				<div class="wButton floating-button">
+					W
+				</div>
+			</div>
+			<p id="author" class="baskerville">By: Rafael Galhardo</p>
+		</section>
+	</main>
+	<div class="northWindow hidden">
+		<div class="direction-text">
+			<button class="close-modal">&times;</button>
+			<p class="verse">
+				"Teus ombros suportam pesos demais <br>
+				Essa noite o céu desabou e você nem percebeu <br>
+				Teus ombros suportam pesos demais <br>
+				Essa noite o céu desabou e você nem percebeu" <br>
+			</p>
+			<p class="ingredient">
+				&nbsp; A referência ao gengibre simboliza o reforço imunitário e a disposição para lidar com noites difíceis, <br>
+				importantes para os profissionais de bar que lidam com um volume intenso de trabalho. <br>
+				A letra sugere que, mesmo sobrecarregados, eles continuam a desempenhar suas funções com dedicação e energia, <br>
+				sem perceber o peso do fardo.
+			</p>
+		</div>
+	</div>
+	<div class="overlay hidden"></div>
+	<footer id="footer">
+		<img id="balance" src="./srcs/footer.jpg" alt="Art Of Balance">
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
