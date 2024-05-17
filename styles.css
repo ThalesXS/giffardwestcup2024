@@ -67,7 +67,7 @@ body{
 .drinkSpace
 {
 	position: relative;
-	background-color: #262525;
+	background-color: #2A2A25;
 	bottom: 0;
 	padding-top: 7px;
 	padding-bottom: 7px;
@@ -222,10 +222,14 @@ body{
 
 .ingredient
 {
-	color: black;
+	color: #646D19;
 	text-align: justify;
 }
 
+h4
+{
+	color: #A1B50D;
+}
 
 /*
 		┏┓┏┓┏┓      ┳ ┳┳┓ ┏┓ ┏┓ ┏┓
