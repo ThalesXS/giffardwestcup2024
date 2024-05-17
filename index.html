@@ -8,7 +8,7 @@
 	<title>
 		Bússola Quebrada
 	</title>
-	<script src="script.js"></script>
+	<!-- <script src="script.js"></script> -->
 	<link rel="icon" href="./srcs/west-cup-icon.png" type="image/icon type">
 	<link rel="styleSheet" href="styles.css">
 	<style>
@@ -50,16 +50,17 @@
 			<p id="author" class="baskerville">By: Rafael Galhardo</p>
 		</section>
 	</main>
+	<div class="overlay hidden"></div>
 	<div class="northWindow hidden">
 		<div class="direction-text">
-			<button class="close-modal">&times;</button>
-			<p class="verse">
+			<button class="closeNorth">&times;</button>
+			<p class="verse" style="margin-top: 50px;">
 				"Teus ombros suportam pesos demais <br>
 				Essa noite o céu desabou e você nem percebeu <br>
 				Teus ombros suportam pesos demais <br>
 				Essa noite o céu desabou e você nem percebeu" <br>
 			</p>
-			<p class="ingredient">
+			<p class="ingredient" style="margin-top: 75px;">
 				&nbsp; A referência ao gengibre simboliza o reforço imunitário e a disposição para lidar com noites difíceis, <br>
 				importantes para os profissionais de bar que lidam com um volume intenso de trabalho. <br>
 				A letra sugere que, mesmo sobrecarregados, eles continuam a desempenhar suas funções com dedicação e energia, <br>
@@ -67,7 +68,59 @@
 			</p>
 		</div>
 	</div>
-	<div class="overlay hidden"></div>
+
+	<div class="southWindow hidden">
+		<div class="direction-text">
+			<button class="closeSouth">&times;</button>
+			<p class="verse" style="margin-top: 50px;">
+				"Algemas de aço, Ilusão Copperfield <br>
+				A sobriedade é um Soco do Holyfield <br>
+				Meu abrigo é teus braços <br>
+				Laços que prendem a embarcação na ponte" <br>
+			</p>
+			<h4 style="text-align: center;">Ingrediente: Cachaça</h4>
+			<p class="ingredient" style="margin-top: 40px;">
+				&nbsp; A referência à cachaça desmistifica sua associação com o alcoolismo, <br>
+				ressaltando-a como um símbolo de conforto e identidade nacional. <br>
+				A comparação das algemas de aço com a ilusão de Copperfield e a sobriedade como um soco de Holyfield evidenciam a dualidade da bebida entre liberdade e prisão. <br>
+				Os "laços que prendem a embarcação na ponte" sugerem uma conexão emocional com o Brasil, reforçando suas origens.<br>
+			</p>
+		</div>
+	</div>
+
+	<div class="westWindow hidden">
+		<div class="direction-text">
+			<button class="closeWest">&times;</button>
+			<p class="verse" style="margin-top: 50px;">
+				"Teus olhos negros lembram minhas madrugadas em claro <br>
+				Essa vida é um Triângulo de Penrose<br>
+				Onde eu o fotografei na minha Pin-hole, solidão"
+			</p>
+			<h4 style="text-align: center;">Ingrediente: Salt and Smoked Bitter</h4>
+			<p class="ingredient" style="margin-top: 55px;">
+				&nbsp; A analogia do complexo bitter caseiro com a vida como um Triângulo de Penrose, sugere uma complexidade intrínseca à existência,
+				comparável à natureza paradoxal do Triângulo de Penrose. O bitter, com seu sabor salgado e fumado, representa as nuances e os contrastes da vida,
+				incluindo momentos de amargura e profundidade. A referência aos olhos negros lembrando madrugadas em claro indica uma associação entre trabalho árduo para muitas pessoas
+				e ao mesmo tempo solidão, sugerindo uma busca por significado ou compreensão em meio à complexidade da existência
+			</p>
+		</div>
+	</div>
+
+	<div class="eastWindow hidden">
+		<div class="direction-text">
+			<button class="closeEast">&times;</button>
+			<p class="verse" style="margin-top: 50px;">
+				"Na orla da barra mais um sol que morre <br>
+				Meu coração uma bússola quebrada <br>
+				Me deito nesse chão estrelado que invade a sala da casa <br>
+S				utilmente eu toco nesse céu de almas"
+			</p>
+			<h4 style="text-align: center;">Ingrediente: Licor de Flor de Sabugueiro</h4>
+			<p class="ingredient" style="margin-top: 55px;">
+				&nbsp; O licor flor de sabugueiro, com sua delicadeza e aroma floral, representa uma espécie de homenagem às almas que passaram pelo bar, como clientes ou amigos. O chão estrelado reflete as interações e trocas de energia que ocorrem no ambiente do bar, criando uma atmosfera única e especial. Ressaltando a profundidade das experiências compartilhadas e das conexões formadas em torno de um balcão de bar, transformando-o em um lugar de encontro e memórias.
+			</p>
+		</div>
+	</div>
 	<footer id="footer">
 		<img id="balance" src="./srcs/footer.jpg" alt="Art Of Balance">
 	</footer>
