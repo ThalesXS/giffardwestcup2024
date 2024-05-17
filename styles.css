@@ -15,6 +15,7 @@
 .baskerville
 {
 	font-family: "Libre Baskerville", serif;
+	font-family: open-sans;
 	font-weight: 400;
 	font-style: italic;
 }
@@ -29,7 +30,7 @@ body{
     display: flex;
     flex-direction: column;
 	margin: 0;
-	background-color: #231A15;
+	background-color: #f8f9fa;
 }
 
 #header
@@ -38,7 +39,7 @@ body{
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color: #f8f9fa;
+	background-color: white;
 }
 
 #main
@@ -64,7 +65,7 @@ body{
 .drinkSpace
 {
 	position: relative;
-	background-color: #f8f9fa;
+	background-color: white;
 	bottom: 0;
 	padding-top: 7px;
 	padding-bottom: 7px;
@@ -73,7 +74,7 @@ body{
 	margin:auto;
 	margin-top: 100px;
 	width: min(550px, 75%);
-	border-radius: 2%;
+	border-radius: 1%;
 }
 
 #compass
@@ -248,7 +249,7 @@ body{
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	border-radius: 50%;
+	border-radius: 1%;
 }
 
 #balance
