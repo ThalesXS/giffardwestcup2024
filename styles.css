@@ -68,14 +68,10 @@ body{
 	position: relative;
 	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(26,25,25,1) 100%);
 	bottom: 0;
-	padding-top: 7px;
-	padding-bottom: 7px;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding: 15px;
 	margin:auto;
 	margin-top: 100px;
 	width: min(550px, 75%);
-	border-radius: 5%;
 }
 
 #compass
@@ -214,7 +210,23 @@ body{
 {
 	font-family: "Libre Baskerville";
 	font-style: italic;
-	color: grey;
+	color: rgb(78, 78, 78);
+	text-align: center;
+}
+
+.verse:hover
+{
+	font-family: "Libre Baskerville";
+	font-style: italic;
+	color: rgb(136, 136, 136);
+	text-align: center;
+}
+
+.verse-en
+{
+	font-family: "Libre Baskerville";
+	font-style: italic;
+	color: rgb(172, 172, 172);
 	text-align: center;
 }
 
@@ -253,9 +265,6 @@ h4
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	border-style: solid;
-	border-radius: 2%;
-	border-color: #1A1A1A;
 }
 
 #balance
